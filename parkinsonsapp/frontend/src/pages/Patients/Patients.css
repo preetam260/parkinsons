@@ -1,0 +1,44 @@
+.patients-container {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .patients-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-patient-btn {
+    background-color: var(--primary);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .patients-table {
+    overflow-x: auto;
+  }
+  
+  .view-btn, .edit-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .view-btn {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .edit-btn {
+    background-color: var(--warning);
+    color: white;
+  }

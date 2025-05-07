@@ -1,0 +1,25 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    margin-left: var(--sidebar-width);
+    width: calc(100% - var(--sidebar-width));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f7fa;
+  }
+  
+  @media (max-width: 768px) {
+    .main-content {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
