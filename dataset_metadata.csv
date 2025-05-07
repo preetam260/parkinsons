@@ -1,0 +1,2 @@
+Filename,Duration(s),Channels,SampleRate(Hz),Samples,SubjectID,Group
+pd03_raw.fif,199.998046875,32,512.0,102400,pd03,PD
